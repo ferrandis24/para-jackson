@@ -1,0 +1,148 @@
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Asul', sans-serif;
+}
+
+#current_deck {
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    background-color: #251c2f;
+}
+
+#card_library {
+    width: 70%;
+    height: 100%;
+    background-color: #341010;
+}
+
+footer{
+    height: 10%;
+}
+
+#card_canvas {
+    width: 100%;
+    height: 95%;
+}
+
+#library_menu{
+    width: 100%;
+    height: 5%;
+}
+
+.card_container {
+    width: 48%;
+    height: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.card_image{
+    max-width:50%;
+    max-height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.card_information {
+    width: 50%;
+    height: 70%;
+    background-color: #f8f5de;
+    background-image: linear-gradient(to right, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
+    box-shadow: inset 0 0 75px rgba(255,210,0,0.3), inset 0 0 20px rgba(255,210,0,0.4), inset 0 0 30px rgba(220,120,0,0.8);
+    color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card_information p {
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 100%;
+}
+
+#current_deck {
+    color: white;
+    text-align: center;
+}
+
+#current_deck h1 {
+    color: white;
+    text-align: center;
+}
+
+#deck_info_top{
+    width: 100;
+    height: 10%;
+}
+
+#deck_info_bottom{
+    width: 100%;
+    height: 10%;
+}
+
+#card_table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+    border: 2px dashed goldenrod;
+}
+
+.card_tile{
+    height: 3.33%;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    font-size: 0.75em;
+}
+
+#left_arrow{
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+}
+
+#left_arrow img {
+    height: 95%;
+}
+
+#pager {
+    width: 79%;
+    display: inline-block;
+    text-align: center;
+}
+
+#pager p{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+#right_arrow{
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    text-align: right;
+}
+
+#right_arrow img {
+    height: 95%;
+    
+}
+
+
